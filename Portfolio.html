@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+
+    <!--This is the main head of the page-->
+<header>
+    <div class="container-navbar">
+     <h1 class="logo">Portfolio</h1>
+     <div class="nav-links">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+     </nav>
+     </div>
+    </div>
+    
+</header>
+
+<!-- Home section -->
+<section class="home">
+    <div class=" home-content">
+       <h2>Hello! My name is Tanveer Qamar Haider Ali Ansari</h2>
+       <p>I am an Engineering Student studying Electronics and Computer Science. 
+        I am a Technology Enthusiast and I am very curious to explore this field.
+        My main focus while studying this b.tech program is to learn and write programming language and 
+        to also develop profficiency in c++ language. I myself have liked Electronics and IoT subject a lot 
+        and have also develop some projects to support my foundation and also improve my understanding in this particular subjects. 
+    </p>
+    <p>You can have a look of my work in the <a href="#projects" class="btn">Projects</a> section. </p>
+    </div>
+</section>
+
+<!-- About section -->
+ <section id="about" class="about-section">
+    <div class="container">
+        <h2 class="about-placement">About</h2>
+        <p>Myself Tanveer Qamar Haider Ali Ansari. I have completed my primary Education in 10+2 manner. 
+            I have done my both 10th(SSC) and 12th(HSC) from the same state board i.e Maharashtra state board of Secondary and Higher Secondary Education.
+            I completed my 10th from <i><b>Modern English School</b></i> and 12th from <i><b>Swami Vivekanand jr. college.</b></i>
+            Currently I'm pursuing a B.tech degree in Electronics and Computer Science from <i><b>Anjuman-I-Islam's Kalsekar Technical Campus.</b></i> 
+            Why I choose this branch is because of my interest and hobby. I like robots, Iot stuffs, semiconductors and Electronics a lot. It's even 
+            my hobby, I like building stuffs and learn how things actually works. My goals throughout this B.tech journey would be to become a 
+            professional in programming and Electronics so that I could work on robots, drones and automated machine without any hustle. One day with all this 
+            knowledge that I will gain. I would also be in the list of people who made something usefull and helpfull for human 
+            civilization with the help of technology.
+
+
+        </p>
+    </div>
+ </section>
+
+ <!--Skills section-->
+ <section id="skills" class="skills-section">
+    <div class="container">
+        <h2>Skills & Expertise</h2>
+        <ul class="skills-list">
+            <li>C++ Programming</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Microcontroller Programming (Arduino, ESP32)</li>
+            <li>Circuit Design & Hardware Troubleshooting</li>
+            <li>Entrepreneurship</li>
+            <li>Communication skill</li>    
+               
+        </ul>
+    </div>
+ </section>
+
+ <!--Education section-->
+ <section id="education" class="education-section">
+    <div class="container">
+        <h2>Education/Qualification</h2>
+        <ul>
+
+            <li>B.tech in Electronics and Computer Science</li>
+            <li>SSC-Secondary School Certificate</li>
+            <li>HSC-Higher Secondary Certificate</li>
+            
+        </ul>
+    </div>
+ </section>
+
+ <!--projects section-->
+ <section id="projects" class="projects-section">
+    <div class="container">
+        <h2>Featured Projects</h2>
+    <div class="project-grid">
+     <div class="project-card">
+        <h3>1. Ajustable Benchtop Variable Power Supply</h3>
+        <h3>Objective</h3>
+        <p>To design and construct a reliable, regulated DC variable power supply unit for testing and powering 
+            various electronic circuits, microcontroller boards, and prototype components with precise voltage and current control.</p>
+            <h3>Technology stack and components</h3>
+            <ul>
+                <li><b>Step-Down Transformer:</b> Steps down high AC mains voltage to a lower AC level.</li>
+                <li><b>Rectification & Filtering Stage:</b> Converts alternating current (AC) to an unregulated 
+                    direct current (DC) source using bridge rectifiers and filter capacitors.</li>
+                  <li><b>DC-DC Step-Down Buck Converter <i>(XL4016E1-Series)</i></b>: Efficiently regulates and steps down the DC voltage level.</li>
+                  <li><b>Potentiometers:</b> Provides manual user adjustment for precise voltage and current regulation.</li>  
+                  <li><b>Digital Panel Meter:</b> Displays real-time output voltage and current metrics.</li>  
+                  <li><b>DC Cooling Fan:</b> Provides thermal management to prevent overheating of 
+                    internal components and the transformer during extended operation.
+                </li>  
+                  <li><b>DC Cooling Fan:</b> Dual binding posts for secure connection to external circuits.</li>  
+            </ul>
+            <h3>Functionality</h3>
+            <ol>
+
+                <li><b>Power Conversion:</b> The step-down transformer reduces input AC voltage, which is subsequently converted into an unregulated DC supply.</li>
+                <li><b>Power Conversion:</b> The DC-DC buck converter module processes the unregulated input, 
+                    allowing users to fine-tune the output parameters smoothly via potentiometers.</li>
+                <li><b>Real-Time Monitoring:</b> The integrated digital display provides continuous 
+                    visual feedback of the active voltage and current output levels.
+                </li>
+                <li><b>Thermal Management:</b> A dedicated DC cooling fan activates to dissipate heat 
+                    and maintain optimal operating temperatures within the enclosure.
+                </li>
+                <li><b>Versatile Delivery:</b> Delivers stable, adjustable DC power through the output
+                     terminals, serving as a fundamental workbench tool for hardware testing and circuit debugging.
+                    </li>
+
+            </ol>
+         </div>
+         <div class="project-card">
+            <h3>2.IoT-Based Web-Controlled Relay Switch</h3>
+
+            <h3>Objective</h3>
+            <p>To design and implement a wireless IoT control system using an ESP32 microcontroller that hosts an embedded web server, 
+                enabling users to remotely toggle electrical appliances and loads via an interactive web interface.
+            </p>
+            <h3>Technology Stack & Components</h3>
+            <ul>
+                <li><b>ESP32 Microcontroller:</b> Serves as the central processing unit with integrated Wi-Fi capabilities to host the web server and process client requests.</li>
+                <li><b>Relay Module:</b> Isolates the low-voltage microcontroller logic from high-current or AC/DC loads, physically switching the connected appliance on or off.</li>
+                <li><b>Resistors & Capacitors:</b> Provide current limiting, signal conditioning, and voltage stabilization across the circuitry.</li>
+                <li><b>Indicator LEDs:</b> Offer real-time visual feedback for power status and relay activation.</li>
+                <li><b>Web Interface (HTML/CSS):</b> Renders the user-facing control panel featuring the interactive switch element.</li>
+            </ul>
+
+            <h3>Functionality</h3>
+            <ol>
+                <li><b>Web Server Hosting:</b>The ESP32 connects to a local wireless network and hosts a lightweight web page containing an interactive interface switch.</li>
+                <li><b>Multi-Device Accessibility:</b>Users can access the hosted control page from any networked device, including smartphones, laptops, or tablets.</li>
+                <li><b>Command Processing:</b>Clicking the switch on the webpage sends an HTTP request command to the ESP32 microcontroller.</li>
+                <li><b>Load Control:</b>Upon receiving the signal, the ESP32 toggles its digital output pin to trigger the relay module, opening or closing the circuit to operate the connected load (such as a fan or LED).</li>
+                <li><b>Status Indication:</b>Integrated indicator LEDs illuminate to display the active operational state of the system and relay trigger events.</li>
+            </ol>
+               </div>
+               <div class="project-card">
+                <h3>3.IoT-Based Smoke and LPG Gas Detector Alarm System (ESP32) Objective</h3>
+                <p>To design and implement an automated safety monitoring system using an ESP32 microcontroller that detects hazardous smoke and LPG gas leaks, provides local audio warnings, dispatches instant SMS notifications to emergency contacts, and supports real-time web monitoring.</p>
+
+                <h3>Technology Stack & Components</h3>
+                <ul>
+                    <li><b>ESP32 Microcontroller:</b>Serves as the central processing unit, analyzing incoming sensor data, executing alert logic, and hosting the embedded web page.</li>
+                    <li><b>Smoke and LPG Gas Sensor:</b>Continuously monitors the surrounding air quality to detect combustible gases, liquefied petroleum gas (LPG) leaks, and smoke concentrations.</li>
+                    <li><b>Buzzer:</b>Provides an immediate local audible alert when hazardous threshold levels are exceeded.</li>
+                    <li><b>Communication Module / SMS Gateway:</b>Transmits automated warning messages to the system owner and all pre-listed emergency contacts.</li>
+                    <li><b>Embedded Web Server Interface:</b>Displays live gas and smoke detection metrics through a browser-accessible dashboard.</li>
+                </ul>
+
+                <h3>Functionality</h3>
+                <ol>
+                    <li><b>Continuous Environmental Sensing:</b>The gas and smoke sensor actively monitors the local environment for anomalies in air composition.</li>
+                    <li><b>Signal Transmission:</b>Upon detecting smoke or gas concentrations above a safe threshold, the sensor sends a trigger signal to the ESP32.</li>
+                    <li><b>Local Alarm Trigger:</b>The ESP32 immediately activates the buzzer to sound an audible warning for occupants in the immediate area.</li>
+                    <li><b>Automated Emergency Messaging:</b>The system sends real-time SMS alerts to the owner and designated contact list to ensure prompt notification even when away.</li>
+                    <li><b>Web-Based Monitoring:</b>The ESP32 hosts a live status page that allows users to monitor current gas and smoke levels remotely via any connected network device.</li>
+                </ol>
+                
+               </div>
+
+    </div>
+    </div>
+ </section>
+
+<!--contact section-->
+<section id="contact" class="contact-section">
+    <div class="container">
+       <h2>Contact</h2>
+       <p>You can reach me via email at <a href="mailto:ansaritanveerqamar@gmail.com">ansaritanveerqamar@gmail.com</a> or connect with me on <b>LinkedIn</b> and <b>GitHub</b>.</p>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Tanveer Ansari. All rights reserved.</p>
+    </div>
+</footer>
+    
+</body>
+
+
+</html>
